@@ -19,6 +19,7 @@ For the project entitled "Outcome Differences by Sex in Oncology Clinical Trials
 program query_sex_differences.py that uses the auxiliary file  sex_trial_keyword_list.py.
 The purpose of query_sex_differences.py is to find a subset of clinical trials in which the Trialtrove curators
 may have found  a comparison of males vs. females for outcomes or side effects.
+
 Usage: python3 query_sex_differences.py
 
 The inputs are specified in the program with lines such as:
@@ -37,11 +38,14 @@ Column: Either Trial Notes or Trial Results (because these are the two Trailtrov
 
 Alejandro Schaffer wrote the program findpubmed.py that finds PubMed ids and PubMedCentral ids in the ASCII versions of Trialtrove
 files, which are produced by trialtrove_processing_wcomments.py and character_conversion_table.py
+
 Usage:
 python3 findpubmed.py --input_file <Trialtrove file> --output_file_full <tab-delimited output file>
+
 The rightmost column of the tab-delimited output file has the publication identifiers as a comma-delimited list
 
 Both trialtrove_processing_wcomments.py and python3 query_sex_differences.py require the pandas package of python
 
 Contributors: Ashwin Kammula and Alejandro Schaffer
+
 Contact: Alejandro Schaffer (alejandro.schaffer@nih.gov)
