@@ -16,7 +16,7 @@ python -c 'import trialtrove_processing_wcomments; trialtrove_processing_wcommen
 where the file names input.xlsx and output.txt may be replaced.
 
 For the project entitled "Outcome Differences by Sex in Oncology Clinical Trials", Ashwin wrote the
-program query_sex_differences.py which uses the auxiliary file  sex_trial_keyword_list.py.
+program query_sex_differences.py that uses the auxiliary file  sex_trial_keyword_list.py.
 The purpose of query_sex_differences.py is to find a subset of clinical trials in which the Trialtrove curators
 may have found  a comparison of males vs. females for outcomes or side effects.
 Usage: python3 query_sex_differences.py
@@ -34,6 +34,12 @@ Gender Term: The token that may refer to males or females
 Comparison Term: The token or substring (such as "vs.) that suggests a comparison has been done
 Context: The context around the sex term that may include a comparison
 Column: Either Trial Notes or Trial Results (because these are the two Trailtrove columns that contain results and where comparisons by sex may be found)
+
+Alejandro Schaffer wrote the program findpubmed.py that finds PubMed ids and PubMedCentral ids in the ASCII versions of Trialtrove
+files, which are produced by trialtrove_processing_wcomments.py and character_conversion_table.py
+Usage:
+python3 findpubmed.py --input_file <Trialtrove file> --output_file_full <tab-delimited output file>
+The rightmost column of the tab-delimited output file has the publication identifiers as a comma-delimited list
 
 Both trialtrove_processing_wcomments.py and python3 query_sex_differences.py require the pandas package of python
 
