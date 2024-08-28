@@ -1,6 +1,9 @@
 character_mapping = {
   129: 'i', # _
-  149: ' dot ', # u0095  
+  149: ' dot ', # u0095
+  155: ' bracket ', # u009B        
+  157: ' box ', # u009D
+  159: 'Y', # u009D        
   160: ' ', #  
   161: '!', # ¡
   162: 'cents', # \u00A2
@@ -223,6 +226,7 @@ character_mapping = {
   381: 'Z', # u017D
   382: 'z', # u017E
   383: 'S', # u017F
+  400: 'E', # u0190    
   402: 'f', # ƒ
   403: 'G', # u0193
   404: 'Gamma', # u0194  
@@ -235,7 +239,8 @@ character_mapping = {
   539: 't', # u021B
   593: 'alpha', #u0251  
   609: 'g',  # u0261
-  611: 'gamma', #u0263  
+  611: 'gamma', #u0263
+  612: 'gamma', #u0264      
   628: 'N',  # u0274
   671: 'L',  # u029F  
   688: 'h', # u2B0
@@ -261,6 +266,8 @@ character_mapping = {
   774: '', #u0306 
   775: '', #u0307 
   776: '\"', # u308
+  778: ' circle ', # u30A    
+  822: '-', # u336  
   834: '~', # u342  
   835: '\'', # u343  
   894: '?', # \u037E 
@@ -276,6 +283,7 @@ character_mapping = {
   922: 'Kappa', #u039A
   923: 'Lambda', #u039B
   924: 'Mu', #u039C
+  931: 'Sigma', #u03A3    
   932: 'Tau', #u03A4
   934: 'Phi', #u03A6  
   935: 'Chi', #u03A7  
@@ -308,7 +316,16 @@ character_mapping = {
   981: 'phi', # u03D5
   1030: 'I', # u0406  
   1040: 'A', # u0410
-  1052: 'M', # u041C  
+  1042: 'A', # u0412    
+  1045: 'E', # u0415    
+  1048: 'I', # u0418
+  1050: 'K', # u041A
+  1051: 'JI', # u041B            
+  1052: 'M', # u041C
+  1053: 'H', # u041D
+  1054: 'O', # u041E
+  1055: 'PE', # u041F
+  1056: 'P', # u0420      
   1057: 'C', # u0421
   1058: 'T', # u0422
   1064: ' Sha ', # u0428  
@@ -321,10 +338,12 @@ character_mapping = {
   1086: 'o', # u043E
   1087: 'pe', # u043F
   1088: 'p', # u0440
-  1089: 'c', # u0441  
+  1089: 'c', # u0441
+  1091: 'y', # u0443      
   1093: 'x', # u0445  
   1110: 'i', # u0456
   1111: 'yi', # u0457
+  1179: 'Cyrillic letter', # u049B    
   1195: 'c', # u04AB
   1255: '0', # u04E7  
   1589: 'Arabic character', # u0635  
@@ -334,6 +353,9 @@ character_mapping = {
   1778: 'Arabic two', # u06f2  
   3640: 'Thai character', # u0E38
   7437: 'M', # u1D0D
+  7475: 'G', # u1D33
+  7481: 'M', # u1D39
+  7488: 'T', # u1D40            
   7491: 'a', # u1D43
   7492: 'reverse a', # u1D44  
   7493: 'a', # u1D45
@@ -345,7 +367,9 @@ character_mapping = {
   7499: 'member ', # u1D4B
   7500: 'turned e', # u1D4C
   7501: 'g', # u1D4D
+  7504: 'g', # u1D50    
   7511: 't', # u1D57 
+  7580: 'M', # u1D9C        
   7697: 'd', # u1E11  
   7716: 'H', # u1E24
   7830: 'h', # u1E96
@@ -357,6 +381,7 @@ character_mapping = {
   7871: 'e', # u1EBF
   7897: 'o', # u1ED9
   7907: 'o', # u1EE3
+  7929: 'y', # u1EF9    
   8194: '  ', # u2002  
   8195: '  ', # u2003
   8197: '  ', # u2005
@@ -388,7 +413,10 @@ character_mapping = {
   8224: 'dagger', # †
   8225: 'doubledagger', # ‡
   8226: '-', # •
+  8227: ' traingular bullet ', # u2023
   8230: '...', # …
+  8231: ' circular bullet ', #u2027    
+  8232: ' new line', #u2028
   8239: ' ', # u202f  
   8240: '0/00', # \u2030
   8242: ' prime  ', # u2032  
@@ -411,7 +439,8 @@ character_mapping = {
   8313: '^9', # u2079
   8314: '^+', # \u207A  
   8315: '^-', # \u207B  
-  8317: '(', # \u207D  
+  8317: '(', # \u207D
+  8318: ')', # \u207E      
   8319: '^n', # \u207F  
   8320: '_0', # u2080
   8321: '_1', # u2081
@@ -442,6 +471,8 @@ character_mapping = {
   8545: 'II', # u2161  
   8546: 'III', # u2162  
   8547: 'IV', # u2163
+  8548: 'V', # u2164
+  8549: 'VI', # u2165        
   8560: 'i', # \u2170
   8561: 'ii', # \u2171
   8562: 'iii', # \u2172
@@ -452,6 +483,7 @@ character_mapping = {
   8593: '^', #u2191
   8594: '->', #u2192
   8595: '_', #u2193
+  8658: ' right arrow ', #u21D2    
   8710: ' increment ', #u2206
   8721: ' Sum ', #u2211
   8722: '-', #u2212
@@ -463,7 +495,9 @@ character_mapping = {
   8732: 'fourth root', #u221C  
   8733: 'related to', #u221D
   8734: 'infinity', #u221E
+  8741: ' logical or ', #u2225    
   8743: ' logical and ', #u2227
+  8758: ':', #u2236
   8764: '~', #u223C
   8776: '~=', #u2248
   8800: 'not =', # u2260
@@ -474,7 +508,8 @@ character_mapping = {
   8815: ' not greater than ', #u226F
   8896: ' logical and ', #u22C0
   8901: 'dot', # u22C5
-  9082: 'alpha', #u237A  
+  9082: 'alpha', #u237A
+  9134: '|', #u23AE    
   9135: '-', #u23AF
   9147: '-', #u23BB
   9148: '-', #u23BC  
@@ -491,33 +526,61 @@ character_mapping = {
   9322: '11', # u246A
   9323: '12', # u246B
   9324: '13', # u246C
+  9325: '14', # u246D
+  9326: '15', # u246E
+  9327: '16', # u246F
+  9328: '17', # u2470
+  9329: '18', # u2471
+  9330: '19', # u2472
+  9331: '20', # u2473
+  9332: '1', # u2474
+  9333: '2', # u2475
+  9334: '3', # u2476
+  9335: '4', # u2477
+  9336: '5', # u2478
+  9337: '6', # u2479
+  9338: '7', # u2470
+  9339: '8', # u2471
+  9371: '20.', # u249B                                                    
   9415: ' trademark ', # u24C7
   9432: ' circled i ', # u24D8
   9472: '-', # u2500
   9474: '|', # u2502
-  9587: 'times', #u2573    
-  9642: 'square', #u25AA
+  9587: 'times', #u2573
+  9632: ' square ', #u25A0    
+  9642: ' square ', #u25AA
+  9644: ' rectangle ', #u25AC    
+  9651: ' triangle ', #u25B3      
   9656: ' right pointer ', #u25B8  
   9658: ' right pointer ', #u25BA
   9660: ' downward pointer ', #u25BC
   9670: ' black diamond ', #u25C6  
-  9675: 'circle', # u25CB  
+  9674: 'lozenge ', # u25CA  
+  9675: 'circle ', # u25CB  
   9678: ' bullseye ', #u25CE  
   9679: ' dot ', # u25CF
-  9702: 'dot', # u25E6
-  9724: ' black square ', #u25FC  
+  9702: ' dot ', # u25E6
+  9724: ' black square ', #u25FC
+  9726: ' black square ', #u25FE    
+  9733: ' star ', # u2605    
   9734: ' star ', # u2606
+  9746: ' square with X ', #u2612        
   9758: ' right pointing index ', # u261E
-  9830: ' diamond ', # u2666    
+  9830: ' diamond ', # u2666
+  9899: ' black circle ', # u26AB        
   10003: ' check mark ', # u2713
+  10004: ' check mark ', # u2714
+  10006: ' multiplication symbol ', # u2716        
   10022: ' black four pointed star ', #u2726    
   10065: ' white square ', # u2751
+  10070: ' diamond ', # u2756    
   10146: ' right arrowhead ', # u27A2
   10230: ' right arrow ', # u27F6
   10731: ' black lozenge ', # u29EB  
   10877: '&lt;=', # u2A7D  
   10878: '&gt;=', # u2A7E
   11389: 'V', # u2C7D
+  11825: 'dot', # u2E31    
   12288: ' ', #u3000 
   12289: 'comma', #u3001
   12290: 'period', #u3002
@@ -527,7 +590,12 @@ character_mapping = {
   12305: 'right bracket', #u3011
   12306: ' postal mark ', #u3012
   12308: ' left bracket ', #u3014  
-  12309: ' right bracket ', #u3015  
+  12309: ' right bracket ', #u3015
+  12310: ' left bracket ', #u3016  
+  12311: ' right bracket ', #u3017    
+  12351: ' box with x ', #u303F
+  12354: ' Hiragana letter ', #u3042              
+  12426: ' Hiragana letter ', #u308A          
   12539: ' middle dot ', # u30FB  
   12540: 'sound mark', # u30FC
   12599: 'Hangul letter', # u3137 
@@ -537,159 +605,210 @@ character_mapping = {
   13217: 'm squared', #u33a1  
   19968: 'ideograph', #u4E00
   19978: 'Kanji character', # \u4E0A
-  20008: 'Chinese character', # \u4E28
-  20013: 'Chinese character', # \u4E2D
-  20110: 'Chinese character', # \u4E8E    
-  20132: 'Chinese character', # \u4EA4
-  20140: 'Chinese character', # \u4EAC
-  20154: 'Chinese character', # \u4EBA
-  20161: 'Chinese character', # \u4EC1
-  20197: 'Chinese character', # \u4EE5        
-  20221: 'Chinese character', # \u4EFD
-  20248: 'Chinese character', # \u4F18
-  20304: 'Chinese character', # \u4F50        
-  20844: 'Chinese character', # \u516C
-  20849: 'Chinese character', # \u5171
-  20874: 'Chinese character', # \u518A
-  20934: 'Chinese character', # \u51C6    
-  20998: 'Chinese character', # \u5206
-  21271: 'Chinese character', # \u5317
-  21463: 'Chinese character', # \u53D7
-  21475: 'Chinese character', # \u53E3
-  21477: 'Chinese character', # \u53E5    
-  21496: 'Chinese character', # \u53F8
-  21513: 'Chinese character', # \u5409
-  21531: 'Chinese character', # \u541B
-  21578: 'Chinese character', # \u544A
-  21644: 'Chinese character', # \u548C
-  21697: 'Chinese character', # \u54C1
-  22269: 'Chinese character', # \u56FD
-  22283: 'Chinese character', # \u570B
-  22374: 'Chinese character', #
-  22659: 'Chinese character', # \u5883                                                                
-  22823: 'Chinese character', #
-  22836: 'Chinese character', #
-  22987: 'Chinese character', # \u59CB
-  23416: 'Chinese character', #
-  23439: 'Chinese character', #     
-  23526: 'Chinese character', # \u5BE6
-  23545: 'Chinese character', # \u5BF9        
-  23567: 'Chinese character', # \u5C0F
-  23612: 'Chinese character', #
-  23660: 'Chinese character', #
-  24030: 'Chinese character', # \u5DDE
-  24202: 'Chinese character', # \u5E8A
-  24320: 'Chinese character', # 
-  24378: 'Chinese character', # \u5F3A
-  24405: 'Chinese character', # 
-  24489: 'Chinese character', # 
-  25110: 'Chinese character', # \u6216
-  25209: 'Chinese character', # 
-  25216: 'Chinese character', # \u6280
-  25237: 'Chinese character', # 
-  25253: 'Chinese character', #
-  26354: 'Chinese character', # 
-  26360: 'Chinese character', #
-  26364: 'Chinese character', #     
-  26367: 'Chinese character', # 
-  26377: 'Chinese character', # \u6709    
-  26399: 'Chinese character', #
-  26469: 'Chinese character', #
-  26519: 'Chinese character', #     
-  26524: 'Chinese character', #
-  27665: 'Chinese character', #
-  27721: 'Chinese character', #
-  27801: 'Chinese character', #
-  27861: 'Chinese character', #
-  27888: 'Chinese character', #    
-  27941: 'Chinese character', #         
-  28023: 'Chinese character', # \u6D77
-  28450: 'Chinese character', #
-  28639: 'Chinese character', #    
-  29031: 'Chinese character', #     
-  29289: 'Chinese character', # \u7269            
-  29305: 'Chinese character', #     
-  29702: 'Chinese character', #     
-  29983: 'Chinese character', # \u751F
-  30244: 'Chinese character', #
-  30465: 'Chinese character', # 
-  30693: 'Chinese character', #
-  30782: 'Chinese character', #
-  30844: 'Chinese character', #
-  31070: 'Chinese character', #         
-  31185: 'Chinese character', # \u79D1
-  31243: 'Chinese character', # 
-  31310: 'Chinese character', # 
-  31481: 'Chinese character', #
-  31561: 'Chinese character', #
-  31649: 'Chinese character', #
-  31859: 'Chinese character', #             
-  32463: 'Chinese character', #
-  32467: 'Chinese character', #
-  32476: 'Chinese character', #             
-  32593: 'Chinese character', #
-  32763: 'Chinese character', #             
-  32929: 'Chinese character', # \u80A1
-  33131: 'Chinese character', #
-  33256: 'Chinese character', #
-  33258: 'Chinese character', #
-  33267: 'Chinese character', #
-  33775: 'Chinese character', #                 
-  34277: 'Chinese character', # \u85E5
-  34311: 'Chinese character', #                 
-  35069: 'Chinese character', #                 
-  35387: 'Chinese character', # \u8A3B
+  19994: ' Chinese character ', # \u4E1A    
+  20008: ' Chinese character ', # \u4E28
+  20013: ' Chinese character ', # \u4E2D
+  20110: ' Chinese character ', # \u4E8E    
+  20132: ' Chinese character ', # \u4EA4
+  20140: ' Chinese character ', # \u4EAC
+  20154: ' Chinese character ', # \u4EBA
+  20161: ' Chinese character ', # \u4EC1
+  20197: ' Chinese character ', # \u4EE5        
+  20221: ' Chinese character ', # \u4EFD
+  20248: ' Chinese character ', # \u4F18
+  20304: ' Chinese character ', # \u4F50        
+  20844: ' Chinese character ', # \u516C
+  20849: ' Chinese character ', # \u5171
+  20874: ' Chinese character ', # \u518A
+  20934: ' Chinese character ', # \u51C6    
+  20998: ' Chinese character ', # \u5206
+  21271: ' Chinese character ', # \u5317
+  21307: ' Chinese character ', # \u533B    
+  21463: ' Chinese character ', # \u53D7
+  21475: ' Chinese character ', # \u53E3
+  21477: ' Chinese character ', # \u53E5    
+  21496: ' Chinese character ', # \u53F8
+  21513: ' Chinese character ', # \u5409
+  21531: ' Chinese character ', # \u541B
+  21578: ' Chinese character ', # \u544A
+  21644: ' Chinese character ', # \u548C
+  21697: ' Chinese character ', # \u54C1
+  22235: ' Chinese character ', # u56DB
+  22269: ' Chinese character ', # \u56FD
+  22283: ' Chinese character ', # \u570B
+  22374: ' Chinese character ', #
+  22659: ' Chinese character ', # \u5883
+  22763: ' Chinese character ', # u58EB
+  22823: ' Chinese character ', # u5927
+  22836: ' Chinese character ', # u5934
+  22855: ' Chinese character ', # u5947    
+  22987: ' Chinese character ', # \u59CB
+  23398: ' Chinese character ', # u5B66    
+  23416: ' Chinese character ', # u5B78
+  23433: ' Chinese character ', # u5B89        
+  23439: ' Chinese character ', #     
+  23526: ' Chinese character ', # \u5BE6
+  23545: ' Chinese character ', # \u5BF9        
+  23567: ' Chinese character ', # \u5C0F
+  23612: ' Chinese character ', #
+  23660: ' Chinese character ', #
+  24030: ' Chinese character ', # \u5DDE
+  24120: ' Chinese character ', # \u5E38    
+  24202: ' Chinese character ', # \u5E8A
+  24247: ' Chinese character ', # u5EB7
+  24320: ' Chinese character ', # 
+  24378: ' Chinese character ', # \u5F3A
+  24405: ' Chinese character ', # u5F55
+  24471: ' Chinese character ', # u5F97     
+  24489: ' Chinese character ', # uFA9
+  24605: ' Chinese character ', # u601D
+  24658: ' Chinese character ', # u6052
+  25110: ' Chinese character ', # \u6216
+  25209: ' Chinese character ', # 
+  25216: ' Chinese character ', # \u6280
+  25237: ' Chinese character ', # 
+  25253: ' Chinese character ', #
+  25991: ' Chinese character ', #u6587                
+  26085: ' Chinese character ', #u65E5            
+  26228: ' Chinese character ', #u6674 
+  26354: ' Chinese character ', #u66F2  
+  26360: ' Chinese character ', #u66F8
+  26364: ' Chinese character ', #u66FC     
+  26367: ' Chinese character ', #u66FF 
+  26377: ' Chinese character ', # \u6709    
+  26399: ' Chinese character ', #u671F
+  26412: ' Chinese character ', #u672C        
+  26469: ' Chinese character ', #
+  26519: ' Chinese character ', #     
+  26524: ' Chinese character ', #
+  26631: ' Chinese character ', #u6807
+  26862: ' Chinese character ', #u68EE    
+  26989: ' Chinese character ', #u696D
+  27425: ' Chinese character ', #u6B21 
+  27665: ' Chinese character ', #u6C11
+  27721: ' Chinese character ', #u6C49
+  27827: ' Chinese character ', #u6CB3    
+  27801: ' Chinese character ', #u6C99
+  27827: ' Chinese character ', #u6C99    
+  27861: ' Chinese character ', #u6CD5
+  27888: ' Chinese character ', #u6CF0
+  27931: ' Chinese character ', #u6D1B
+  27941: ' Chinese character ', #u6D25         
+  28023: ' Chinese character ', # \u6D77
+  28450: ' Chinese character ', #
+  28639: ' Chinese character ', # u6FDF   
+  29031: ' Chinese character ', # u7167    
+  29289: ' Chinese character ', # \u7269            
+  29305: ' Chinese character ', #     
+  29702: ' Chinese character ', #     
+  29983: ' Chinese character ', # \u751F
+  30244: ' Chinese character ', #u7624
+  30465: ' Chinese character ', #u7701
+  30591: ' Chinese character ', #u777F
+  30693: ' Chinese character ', #
+  30782: ' Chinese character ', #
+  30844: ' Chinese character ', #
+  31070: ' Chinese character ', #         
+  31185: ' Chinese character ', # \u79D1
+  31243: ' Chinese character ', # 
+  31310: ' Chinese character ', # 
+  31481: ' Chinese character ', # 
+  31532: ' Chinese character ', #  u7B2C   
+  31561: ' Chinese character ', # u7B49
+  31649: ' Chinese character ', #
+  31859: ' Chinese character ', #             
+  32463: ' Chinese character ', #
+  32467: ' Chinese character ', #
+  32476: ' Chinese character ', #             
+  32593: ' Chinese character ', #
+  32752: ' Chinese character ', #u7FF0                 
+  32763: ' Chinese character ', #             
+  32929: ' Chinese character ', # \u80A1
+  33131: ' Chinese character ', #
+  33145: ' Chinese character ', #    
+  33256: ' Chinese character ', #
+  33258: ' Chinese character ', #
+  33267: ' Chinese character ', #
+  33487: ' Chinese character ', #u82CF
+  33521: ' Chinese character ', # u82F1            
+  33647: ' Chinese character ', #u836F
+  33775: ' Chinese character ', #                 
+  34277: ' Chinese character ', # \u85E5
+  34311: ' Chinese character ', #
+  34907: ' Chinese character ', #u885B                     
+  35069: ' Chinese character ', #                 
+  35387: ' Chinese character ', # \u8A3B
   35430: 'test, try, experiment', # \u8A66
-  35657: 'Chinese character', # \u8B49
-  35793: 'Chinese character', #
-  35997: 'Chinese character', #                 
-  36164: 'Chinese character', #
-  36562: 'Chinese character', #
-  36880: 'Chinese character', #
-  36890: 'Chinese character', #
-  36947: 'Chinese character', #
-  37200: 'Chinese character', #                 
-  37291: 'Chinese character', # \u91AB                
-  38283: 'Chinese character', # \u958B
-  38468: 'Chinese character', #             
-  38480: 'Chinese character', # \u9650
-  38498: 'Chinese character', #
-  38678: 'Chinese character', #    
-  39443: 'Chinese character', # 
-  39511: 'Chinese character', # \u9A57
-  42999: 'sideways I', # \uA7F7  
-  45716: 'Hangul letter', # uB294
-  46608: 'Hangul letter', # uB610
-  57441: 'private character', # \uE061
-  57442: 'private character', # \uE062          
-  61483: 'private character', # \uF02B
-  61485: 'private character', # \uF02D      
-  61500: 'private character', # \uF03C
-  61502: 'private character', # \uF03E
-  61537: 'private character', # \uF061
-  61538: 'private character', # \uF062
-  61543: 'private character', # \uF067
-  61548: 'private character', # \uF06C    
-  61550: 'private character', # \uF06E    
-  61551: 'private character', # \uF06F
-  61553: 'private character', # \uF071
-  61556: 'private character', # \uF074
-  61591: 'private character', # \uF097    
-  61599: 'private character', # \uF09F
-  61600: 'private character', # \uF0A0    
-  61603: 'private character', # \uF0A3  
-  61607: 'private character', # \uF0A7
-  61608: 'private character', # \uF0A8    
-  61610: 'private character', # \uF0AA
-  61616: 'private character', # \uF0B0        
-  61619: 'private character', # \uF0B3
-  61620: 'private character', # \uF0B4  
-  61623: 'private character', # uF0B7
-  61650: 'private character', # \uF0D2                    
-  61656: 'private character', # \uF0D8                
-  61664: 'private character', # \uF0E0
-  61690: 'private character', # \uF0FA      
-  61692: 'private character', # \uF0FC  
+  35657: ' Chinese character ', # \u8B49
+  35793: ' Chinese character ', #
+  35997: ' Chinese character ', #                 
+  36164: ' Chinese character ', #
+  36562: ' Chinese character ', #
+  36880: ' Chinese character ', #
+  36890: ' Chinese character ', #
+  36947: ' Chinese character ', #
+  37030: ' Chinese character ', #u90A6                     
+  37200: ' Chinese character ', #                 
+  37291: ' Chinese character ', # \u91AB
+  38271: ' Chinese character ', #    
+  38283: ' Chinese character ', # \u958B
+  38468: ' Chinese character ', #             
+  38480: ' Chinese character ', # \u9650
+  38498: ' Chinese character ', #
+  38678: ' Chinese character ', #
+  39064: ' Chinese character ', # u9898        
+  39443: ' Chinese character ', # 
+  39511: ' Chinese character ', # \u9A57
+  41226: ' Yi syllable ', # uA10A
+  41266: ' Yi syllable ', # uA132
+  42999: ' sideways I ', # \uA7F7  
+  45716: ' Hangul letter ', # uB294
+  46608: ' Hangul letter ', # uB610
+  57441: ' private character ', # \uE061
+  57442: ' private character ', # \uE062
+  58908: ' private character ', # \uE61C                    
+  58909: ' private character ', # \uE61D                
+  58910: ' private character ', # \uE61E            
+  58911: ' private character ', # \uE61F        
+  61483: ' private character ', # \uF02B
+  61485: ' private character ', # \uF02D      
+  61500: ' private character ', # \uF03C
+  61502: ' private character ', # \uF03E
+  61537: ' private character ', # \uF061
+  61538: ' private character ', # \uF062
+  61543: ' private character ', # \uF067
+  61548: ' private character ', # \uF06C    
+  61549: ' private character ', # F06D
+  61550: ' private character ', # \uF06E    
+  61551: ' private character ', # \uF06F
+  61552: ' private character ', # \uF070    
+  61553: ' private character ', # \uF071
+  61556: ' private character ', # \uF074
+  61558: ' private character ', # F076
+  61559: ' private character ', # \uF077
+  61566: ' private character ', # \uF07D        
+  61572: ' private character ', # \uF084    
+  61591: ' private character ', # \uF097
+  61592: ' private character ', # \uF098        
+  61599: ' private character ', # \uF09F
+  61600: ' private character ', # \uF0A0    
+  61601: ' private character ', # uF0A1
+  61603: ' private character ', # \uF0A3  
+  61607: ' private character ', # \uF0A7
+  61608: ' private character ', # \uF0A8    
+  61610: ' private character ', # \uF0AA
+  61616: ' private character ', # \uF0B0        
+  61619: ' private character ', # \uF0B3
+  61620: ' private character ', # \uF0B4  
+  61623: ' private character ', # uF0B7
+  61630: ' private character ', # uF0BE    
+  61650: ' private character ', # \uF0D2                    
+  61656: ' private character ', # \uF0D8                
+  61664: ' private character ', # \uF0E0
+  61666: ' private character ', # uF0E2
+  61690: ' private character ', # \uF0FA      
+  61692: ' private character ', # \uF0FC
+  61694: ' private character ', # uF0FE
   64256: 'ff', # \uFB00
   64257: 'fi', # \uFB01
   64258: 'fI', # \uFB02
@@ -697,7 +816,8 @@ character_mapping = {
   65038: '', #uFE0E
   65039: '', #uFE0F  
   65072: ':', #uFE30  
-  65073: '|', #uFE31  
+  65073: '|', #uFE31
+  65122: '-', #uFE62    
   65123: '-', #uFE63
   65124: '<', # \uFE64
   65125: '>', # \uFE65
@@ -719,10 +839,12 @@ character_mapping = {
   65309: '>', # \uFF1D  
   65310: '=', # \uFF1E  
   65311: '?', # \uFF1F
+  65326: 'N', # \uFF2E    
   65339: '[', # \uFF3B  
   65341: ']', # \uFF3D
   65342: ' ^ ', # \uFF3E
-  65345: 'a', # \uFF41        
+  65345: 'a', # \uFF41
+  65368: 'x', # uFF58    
   65371: '{', # uFF5B
   65372: '|', # uFF5C
   65373: '}', # uFF5D  
@@ -731,5 +853,6 @@ character_mapping = {
   65532: ' object replacement ', # \uFFFC    
   65533: '?', # \uFFFD
   120514: 'alpha', # \u1D6C2  
+  120572: 'alpha', # \u1D6FC
   120583: 'Mu', # \u1D707  
 }
