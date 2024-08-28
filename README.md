@@ -40,11 +40,11 @@ Alejandro Schaffer wrote the program findpubmed.py that finds PubMed ids and Pub
 files, which are produced by trialtrove_processing_wcomments.py and character_conversion_table.py
 
 Usage:
-python3 findpubmed.py --input_file <Trialtrove file> --output_file_full <tab-delimited output file>
+python3 findpubmed.py --input_file Trialtrove-file --output_file_full tab-delimited-output-file
 
-The rightmost column of the tab-delimited output file has the publication identifiers as a comma-delimited list
+The rightmost column of the tab-delimited ASCII output file has the publication identifiers as a comma-delimited list.
 
-Both trialtrove_processing_wcomments.py and python3 query_sex_differences.py require the pandas package of python
+Both trialtrove_processing_wcomments.py and python3 query_sex_differences.py require the pandas package of python.
 
 Contributors: Ashwin Kammula and Alejandro Schaffer
 
