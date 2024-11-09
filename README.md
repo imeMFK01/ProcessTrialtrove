@@ -1,5 +1,6 @@
 The GitHub repository http:/github.com/ruppinlab/ProcessTrialtrove contains three programs usful for processing data from the
-clinical trial repository Trialtrove. The code will be directly useful only for those who have a Trialtrove license.
+clinical trial repository Trialtrove and it contains one Ecel file with supplementary data associated with a paper.
+The code will be directly useful only for those who have a Trialtrove license.
 For others, the code should be interpreted as pseudocode that clarifies certain methods we are using to analyze
 Trialtrove data.
 
@@ -46,6 +47,14 @@ python3 findpubmed.py --input_file Trialtrove-file --output_file_full tab-delimi
 The rightmost column of the tab-delimited ASCII output file has the publication identifiers as a comma-delimited list.
 
 Both trialtrove_processing_wcomments.py and python3 query_sex_differences.py require the pandas package of python.
+
+The file SupplementaryTableInterventionalTrialsUsingAI.xlsx contains a compilation of interventional clinical trials that use(d) artificial intelligence (AI) in some manner.
+The list was compiled in August 2024 as part of the review paper:
+
+Tian-Gen Chang, Seongyong Park, Alejandro A. Schaffer, Peng Jiang, Eytan Ruppin.
+Ten Hallmarks of AI Contributions to Precision Oncology: Current State and Future Prospects
+
+which is currently being revised.
 
 Contributors: Ashwin Kammula and Alejandro Schaffer
 
