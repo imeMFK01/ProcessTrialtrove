@@ -1,4 +1,4 @@
-The GitHub repository http:/github.com/ruppinlab/ProcessTrialtrove contains two programs usful for processing data from the
+The GitHub repository http:/github.com/ruppinlab/ProcessTrialtrove contains three programs usful for processing data from the
 clinical trial repository Trialtrove. The code will be directly useful only for those who have a Trialtrove license.
 For others, the code should be interpreted as pseudocode that clarifies certain methods we are using to analyze
 Trialtrove data.
@@ -11,6 +11,7 @@ an assotment of whitespace characters within each cell.
 Therefore, 
 trialtrove_processing_wcomments.py and character_conversion_table.py
 are used to do the the conversion from Excel to ASCII
+
 Usage:
 python -c 'import trialtrove_processing_wcomments; trialtrove_processing_wcomments.process("input.xlsx","output.txt")
 where the file names input.xlsx and output.txt may be replaced.
