@@ -14,7 +14,7 @@ trialtrove_processing_wcomments.py and character_conversion_table.py
 are used to do the the conversion from Excel to ASCII
 
 Usage:
-python -c 'import trialtrove_processing_wcomments; trialtrove_processing_wcomments.process("input.xlsx","output.txt")
+python -c 'import trialtrove_processing_wcomments; trialtrove_processing_wcomments.process("input.xlsx","output.txt")'
 where the file names input.xlsx and output.txt may be replaced.
 
 For the project entitled "Outcome Differences by Sex in Oncology Clinical Trials", Ashwin wrote the

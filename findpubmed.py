@@ -110,7 +110,7 @@ def main():
                     candidate_string = this_results[this_end_position-ID_LENGTH_BOUND:this_end_position]
                     numerical_id = get_pubmed_digits(candidate_string)
                     string_to_append = "PMC" + numerical_id
-                    pubmed_list.append(string_to_apppend)
+                    pubmed_list.append(string_to_append)
             sixth_match = PMC_pattern.search(this_notes)
             if (sixth_match):
                 for one_pattern_match in PMC_pattern.finditer(this_notes):
